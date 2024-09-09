@@ -57,7 +57,7 @@ def mostrarDB():
  
  
  
- def basadaEnTiempo():
+def basadaEnTiempo():
      p1 = log.progress("Fuerza Bruta")
      p1.status("Iniciando proceso de fuerza bruta")
      time.sleep(2)
@@ -87,7 +87,7 @@ def mostrarDB():
  
  
  
- def mostrarTablas():
+def mostrarTablas():
      p1 = log.progress("Fuerza Bruta")
      p1.status("Iniciando proceso de fuerza bruta")
      time.sleep(2)
@@ -110,7 +110,7 @@ def mostrarDB():
                  break
  
  
- def mostrarColumnas():
+def mostrarColumnas():
      p1 = log.progress("Fuerza Bruta")
      p1.status("Iniciando proceso de fuerza bruta")
      time.sleep(2)
@@ -138,7 +138,7 @@ def mostrarDB():
  
  
  
- def mostrar_menu():
+def mostrar_menu():
      print("\nMenú de opciones:")
      print("1. Mostrar usuarios y contraseñas")
      print("2. Enumerar Bases de datos existentes")
@@ -148,19 +148,19 @@ def mostrarDB():
      print ("6. Salir")
  
  
- def def_handler(sig, frame):
+def def_handler(sig, frame):
      print("\n\n[!] Saliendo...\n")
      sys.exit(1)
  
  
  
  # Ctrl+C
- signal.signal(signal.SIGINT, def_handler)
+signal.signal(signal.SIGINT, def_handler)
  
  #variables globales
- main_url = "http://localhost/searchUsers.php"
- characters = string.printable
- resultado = []
+main_url = "http://localhost/searchUsers.php"
+characters = string.printable
+resultado = []
 def makeSQLI():
 
     p1 = log.progress("Fuerza Bruta")
