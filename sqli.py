@@ -31,6 +31,10 @@
          \/____/                            \|___|                                            \/____/         
                                                                                                               
                                           
+
+#NOTA IMPORTANTE: DONDE PONGA = char(104,97,99,107,52,117) por ejemplo, tienes que cambiarlo por las letras de la palabra en hexadecimal que corresponda
+#Y DONDE PONE USERS POR EL NOMBRE DE LA TABLA DE LA BASE DE DATOS QUE QUIERAS SACAR INFORMACIÓN
+
 #!/usr/bin/python3
 
 import requests
