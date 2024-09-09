@@ -12,3 +12,5 @@ copias searchUsers.php en /var/www/html
 eliminas lo que haya en la carpeta excepto el searchUsers.php
 
 accedes en el navegador a la url http://127.0.0.1:80
+
+Previamente tienes que crear una base de datos y un usuario que tendrás que introducir en searchUsers.php
