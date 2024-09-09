@@ -53,7 +53,7 @@ def mostrarDB():
             if r.status_code == 200:
                 extracted_info += chr(character)
                 p2.status(extracted_info)
-                 break
+                break
  
  
  
